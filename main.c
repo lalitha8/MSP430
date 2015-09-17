@@ -40,9 +40,6 @@ int main(void) {
 
 	UART_Initialize();
 	for(;;) {
-		volatile unsigned int i;	// volatile to prevent optimization
-		i = pt;
-		i = int_n;
 		P1OUT ^= BIT0;				// Toggle P1.0 using exclusive-OR
 
 		i = 10000;					// SW Delay
