@@ -7,7 +7,7 @@ Lalita Bhaskaruni, Abhimanyu Chopra, Sammy Lin, and Nisarg Patel
 
 2. Describe the user interface and feedback that will be implemented.
     The user interface will be an LCD that will display the status of the system e.g., Normal, Alarm (fall, heart rate).
-    Possibly add audio alert on the device.
+    An audio alert on the device will also be included.
 
 3. List the peripherals you propose to use to implement for this project, describe the interface
 that will be used to connect each to the microcontroller.
