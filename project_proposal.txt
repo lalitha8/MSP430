@@ -1,0 +1,30 @@
+ECE 511 Group Project Proposal
+Lalita Bhaskaruni, Abhimanyu Chopra, Sammy Lin, and Nisarg Patel
+1. Name and brief description of the project.
+    Elderly Asset Distress Alarm System (EADAS) - This system will monitor a user's health information (heart rate, and
+    vertical orientation).  When a distress is detected either by a fall or a spike in heart rate, an SMS notification is
+    sent out to a preconfigured phone number with the details of the distress.
+
+2. Describe the user interface and feedback that will be implemented.
+    The user interface will be an LCD that will display the status of the system e.g., Normal, Alarm (fall, heart rate).
+    Possibly add audio alert on the device.
+
+3. List the peripherals you propose to use to implement for this project, describe the interface
+that will be used to connect each to the microcontroller.
+    Heart rate monitor - 
+    Gyroscope/Accelerometer - SPI
+    Cellular phone module - UART (AT commands)
+    beeper - GPIO
+
+4. Provide an estimated cost of the components you have identified to use in your project.
+Estimate the total cost you expect the project to cost the group.
+    MSP430FR6989 - $17
+    Adafruit FONA GSM module - $49
+    Antennas - $8
+    Batteries - $16
+    SIM card - $30
+    Rough total - $172
+5. Provide any additional details or concerns you want to share with the instructor for guidance
+or recommendations.
+    At the very least, we would like for the system to beep when a distress is detected.  We would like to implement to
+    SMS messaging as a really nice to have.
