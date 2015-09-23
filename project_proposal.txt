@@ -22,8 +22,8 @@ Estimate the total cost you expect the project to cost the group.
     Adafruit FONA GSM module - $49
     Antennas - $8
     Batteries - $16
-    SIM card - $30
-    Rough total - $172
+    SIM card - $9
+    Rough total - $99
 5. Provide any additional details or concerns you want to share with the instructor for guidance
 or recommendations.
     At the very least, we would like for the system to beep when a distress is detected.  We would like to implement to
